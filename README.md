@@ -47,6 +47,24 @@ The database consists of 4 related tables: `pizza_types`, `pizzas`, `orders`, an
 11. Analyze the cumulative revenue generated over time
 12. Determine the top 3 pizza types based on revenue for each pizza category
 
+## 📂 Dataset
+
+The raw dataset is available in the `data/` folder as 4 CSV files, matching the schema tables:
+
+| File | Description |
+|---|---|
+| `data/pizza_types.csv` | Pizza names, categories, and ingredients |
+| `data/pizzas.csv` | Pizza sizes and prices |
+| `data/orders.csv` | Order dates and times |
+| `data/order_details.csv` | Order-level pizza quantities |
+
+**About the Dataset**
+- **Records:** 21,350+ orders across 2015
+- **Pizza Types:** 32 unique pizzas across 4 categories (Classic, Chicken, Supreme, Veggie)
+- **Sizes Available:** S, M, L, XL, XXL
+- **Time Period:** January 2015 – December 2015
+- **Format:** CSV (comma-separated values)
+
 ## 📁 Files in this Repository
 
 | File | Description |
@@ -126,3 +144,4 @@ The database consists of 4 related tables: `pizza_types`, `pizzas`, `orders`, an
 ## 👤 Author
 
 **Preet**
+**BCA (CSE Dept)**
